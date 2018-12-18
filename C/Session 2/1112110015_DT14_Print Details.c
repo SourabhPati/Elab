@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  	char name[30];
+  	int age,year;
+  	float per;
+  	scanf("%s%d%f%d",name,&age,&per,&year);
+  	printf("Name:%s\nAge:%d\nPercentage:%.1f\nYear of Passing:%d",name,age,per,year);
+
+	return 0;
+}
